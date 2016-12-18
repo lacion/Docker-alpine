@@ -6,5 +6,8 @@ RUN apk add --no-cache --update curl \
     sed \
     jq \
     ca-certificates \
-    openssl && \
+    openssl \
+    git \
+    go \
+    build-base && \
     rm -rf /var/cache/apk/*
