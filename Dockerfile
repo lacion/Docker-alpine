@@ -14,6 +14,7 @@ RUN apk add --no-cache --update curl \
     git \
     musl-dev \
     go \
+	make \
     build-base; \
     rm -rf /var/cache/apk/* && \
 	export \
