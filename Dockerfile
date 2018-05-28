@@ -13,8 +13,8 @@ RUN apk add --no-cache --update curl \
     openssl \
     git \
     musl-dev \
-    go; \
-    build-base && \
+    go \
+    build-base; \
     rm -rf /var/cache/apk/* && \
 	export \
 # set GOROOT_BOOTSTRAP such that we can actually build Go
