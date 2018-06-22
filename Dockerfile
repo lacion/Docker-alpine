@@ -1,4 +1,4 @@
-FROM golang:1.10.2-alpine
+FROM golang:1.10.3-alpine
 MAINTAINER Luis Morales <luismmorales@gmail.com>
 
 ENV LANG=en_US.UTF-8
